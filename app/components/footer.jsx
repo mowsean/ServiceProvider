@@ -13,7 +13,7 @@ class Footer extends Component{
                         <li><Link to="/">Pin Intreset</Link></li>
                         <li><Link to="">About</Link></li>
                     </ul>
-                    <p>Built with all the love in the world by <Link to="/" target="_blank" rel="noopener">@mow</Link> and <Link to="/" target="_blank" rel="noopener">@fat</Link>. Maintained by the <Link to="/">core team</Link> with the help of <Link to="/">our contributors</Link>.</p>
+                    <p>Built with all the love in the world by <Link to="/" target="_blank" rel="noopener">@mow</Link>. Maintained by the <Link to="/">core team</Link> with the help of <Link to="/">our contributors</Link>.</p>
                     <p>Currently v4.0.0. Code licensed <Link to="/" target="_blank" rel="license noopener">MIT</Link>, docs <Link to="/" target="_blank" rel="license noopener">CC BY 3.0</Link>.</p>
                 </div>
             </footer>
