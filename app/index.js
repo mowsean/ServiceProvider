@@ -8,7 +8,8 @@ import ServiceResult from './components/serviceResult.jsx';
 import Navbar from './components/navbar.jsx';
 import Jumbotron from './components/jumbotron.jsx';
 import Footer from './components/footer.jsx';
-
+import PartnershipAccount from './components/partnershipAccount.jsx';
+import Appointment from "./components/appointment.jsx";
 ReactDOM.render(    
   <Router>
         <div>
@@ -16,7 +17,10 @@ ReactDOM.render(
             <Route exact path="/" component={Home} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
-            <Route path="/Service/ServiceResult" component={ServiceResult} />
+            <Route path="/partnershipaccount" component={PartnershipAccount} />
+            <Route path="/service/result" component={ServiceResult} />
+            <Route path="/service/appointment" component={Appointment} />
+            
             <Footer />
         </div>
     </Router>,

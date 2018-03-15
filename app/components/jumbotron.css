@@ -30,6 +30,10 @@
 .jumbotron .container {
   max-width: 40rem;
 } */
+
+.line-height-1 {
+    line-height: 1!important;
+}
 .hero__form {
   
     /* max-width: 350px; */
@@ -39,18 +43,20 @@
 }
 .hero {
    background-image: url('../images/pexelsIphone.png');
-    min-height: 400px;
+    min-height: 350px;
     position: relative;
     z-index: 10;
     color: #ffffff;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
+    background-size:cover;
+    display: flex;
 }
 .text-bold {
     font-weight: bold;
 }
 .display-1 {
-    font-size: 80px;
+    font-size: 50px;
     margin-bottom: 15px;
 }
 .form-group--search {

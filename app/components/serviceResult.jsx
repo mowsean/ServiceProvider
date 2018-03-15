@@ -15,8 +15,8 @@ class ServiceResult extends Component {
                                 </h3>
                                 <p className="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                                 <div className="btn-group">
-                                    <button type="button" className="btn btn-sm btn-outline-secondary">Take!</button>
-                                    <button type="button" className="btn btn-sm btn-outline-secondary">Peek</button>
+                                <Link to="/service/appointment" className="btn btn-sm btn-outline-secondary">Take!</Link>
+                                <Link to="/" className="btn btn-sm btn-outline-secondary">Peek</Link>
                                 </div>
                             </div>
                     </div>

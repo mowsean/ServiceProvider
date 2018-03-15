@@ -8,13 +8,13 @@ class Services extends Component {
     render() {
         return (
             <div>
-                <div className="row mb-2 margin-0">
+                <div className="row col-md-12 mb-2 margin-0">
                     <div className="col-md-6">
                         <div className="card flex-md-row mb-4 box-shadow h-md-250">
                             <div className="card-body d-flex flex-column align-items-start">
                                 <strong className="d-inline-block mb-2 text-success">Logo</strong>
                                 <h3 className="mb-0">
-                                    <Link className="text-dark" to="/Service/ServiceResult">Travel</Link>
+                                    <Link className="text-dark" to="/service/result">Travel</Link>
                                 </h3>
                                 <div className="mb-1 text-muted">Mar 18</div>
                                 <p className="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
@@ -38,7 +38,7 @@ class Services extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="row mb-2 margin-0">
+                <div className="row col-md-12 mb-2 margin-0">
                     <div className="col-md-6">
                         <div className="card flex-md-row mb-4 box-shadow h-md-250">
                             <div className="card-body d-flex flex-column align-items-start">
@@ -68,7 +68,7 @@ class Services extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="row mb-2 margin-0">
+                <div className="row col-md-12 mb-2 margin-0">
                     <div className="col-md-6">
                         <div className="card flex-md-row mb-4 box-shadow h-md-250">
                             <div className="card-body d-flex flex-column align-items-start">
