@@ -10,6 +10,7 @@ import Jumbotron from './components/jumbotron.jsx';
 import Footer from './components/footer.jsx';
 import PartnershipAccount from './components/partnershipAccount.jsx';
 import Appointment from "./components/appointment.jsx";
+import ScheduleAppointment from "./components/scheduleappointment.jsx";
 ReactDOM.render(    
   <Router>
         <div>
@@ -20,6 +21,7 @@ ReactDOM.render(
             <Route path="/partnershipaccount" component={PartnershipAccount} />
             <Route path="/service/result" component={ServiceResult} />
             <Route path="/service/appointment" component={Appointment} />
+            <Route path="/service/scheduleappointment" component={ScheduleAppointment} />
             
             <Footer />
         </div>

@@ -180,7 +180,7 @@ input-group>.form-control+.form-control {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0,0,0,.125) !important;
     border-radius: .25rem;
 }
 

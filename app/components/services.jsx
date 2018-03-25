@@ -8,7 +8,7 @@ class Services extends Component {
     render() {
         return (
             <div>
-                <div className="row col-md-12 mb-2 margin-0">
+                <div className="row col-md-12 mb-2 margin-0 mt-3">
                     <div className="col-md-6">
                         <div className="card flex-md-row mb-4 box-shadow h-md-250">
                             <div className="card-body d-flex flex-column align-items-start">
