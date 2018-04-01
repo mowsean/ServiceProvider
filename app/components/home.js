@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import Navbar from '../components/navbar.jsx';
-import Footer from '../components/footer.jsx';
-import Jumbotron from '../components/jumbotron.jsx';
-import Album from '../components/Album.jsx';
-import Services from '../components/Services.jsx';
-import ServiceResult from '../components/serviceResult.jsx';
+import Navbar from '../components/navbar.js';
+import Footer from '../components/footer.js';
+import Jumbotron from '../components/jumbotron.js';
+import Album from '../components/Album.js';
+import Services from '../components/Services.js';
+import ServiceResult from '../components/serviceResult.js';
 class Home extends Component {
     render() {
         return(

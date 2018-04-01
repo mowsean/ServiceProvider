@@ -3,7 +3,10 @@
     padding-right: 0px!important;
  }
 
-
+.img-staff {
+    height: 120px;
+    width: 120px;
+}
  @media (min-width: 768px) {
     .order-md-2 {
         -webkit-box-ordinal-group: 3;

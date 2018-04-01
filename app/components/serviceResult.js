@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './serviceResult.css';
 import { Link } from 'react-router-dom';
-import MapContainer from './map.jsx';
+import MapContainer from './map.js';
 class ServiceResult extends Component {
     render() {
         return (
