@@ -1,11 +1,47 @@
 {
   "name": "appointity",
   "version": "1.0.0",
-  "description": "",
+  "description": "Schedule Smart 1.0 Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive -R spec './test/**/*.test.js'",
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore client/",
+    "precommit": "lint-staged"
   },
-  "author": "",
-  "license": "ISC"
+  "lint-staged": {
+    "*.{js,json,css}": ["prettier --write", "git add"]
+  },
+  "author": "ScheduleSmart",
+  "license": "ISC",
+  "dependencies": {
+    "atomos": "^0.5.0-alpha",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "js-yaml": "^3.11.0",
+    "morgan": "^1.9.0",
+    "npm": "^5.8.0",
+    "routes": "^2.1.0",
+    "sequelize": "^4.37.6",
+    "tedious": "^2.3.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.224.1",
+    "handlebars": "^4.0.11",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "mocha": "^5.1.0",
+    "nodemon": "^1.17.3",
+    "prettier": "^1.12.0",
+    "yargs": "^11.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mowsean/ServiceProvider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mowsean/ServiceProvider/issues"
+  },
+  "homepage": "https://github.com/mowsean/ServiceProvider#readme"
 }
