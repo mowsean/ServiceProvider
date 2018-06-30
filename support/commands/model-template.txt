@@ -1,0 +1,28 @@
+const Sequelize = require('sequelize');
+
+module.exports = sequelize => {
+
+  const options = {
+    timestamps: false,
+    tableName: '{{tableName}}'
+  };
+
+  const definition = {
+    {{#columns}}
+    ['{{name}}']: {
+      allowNull: {{allowNull}},
+      type: Sequelize.{{type}},
+      {{#if defaultValue}}
+      defaultValue: {{defaultValue}}
+      {{/if}}
+      {{#if primaryKey}}
+      primaryKey: {{primaryKey}}
+      {{/if}}
+    }{{#unless @last}},{{/unless}}
+    {{/columns}}
+  }
+
+  const {{modelName}} = sequelize.define('{{modelName}}', definition, options);
+
+  return {{modelName}};
+};

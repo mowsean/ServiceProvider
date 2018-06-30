@@ -10,16 +10,19 @@ const services = require("../services");
 function constructServices(ctx) {
   ctx.logger.info("Starting services initialization.");
 
-  const sql = {
-    support: new services.sql.Support(ctx.models.get("sql"))
-    // user: new services.sql.User(ctx.models.get('sql')),
-    // role: new services.sql.Role(ctx.models.get('sql')),
-    // skillGroup: new services.sql.SkillGroup(ctx.models.get('sql')),
-    // status: new services.sql.Status(ctx.models.get('sql')),
-    // galAgentGroup: new services.sql.GALAgentGroup(ctx.models.get('sql')),
+  const ss = {
+    companyType: new services.ss.CompanyTypeService(ctx.models.get("ss"))
+    //  companyStaff: new services.ss.CompanyStaff(ctx.models.get('ss')),
+    //   companyType: new services.ss.CompanyType(ctx.models.get('ss')),
   };
 
-  ctx.setServices("sql", sql);
+  //const sqs = {};
+
+  //const sqah = {};
+
+  ctx.setServices("ss", ss);
+  // ctx.setServices('sqs', sqs);
+  // ctx.setServices('sqah', sqah);
 
   ctx.logger.info("Service initialization complete.");
 

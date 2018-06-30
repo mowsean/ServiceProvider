@@ -1,12 +1,12 @@
 const { Router } = require("express");
 const apiRouterFactory = require("./api");
 
-function routesFactory(controllers) {
+function routesFactory(controllers, config) {
   const router = new Router();
 
-  router.use("/api", apiRouterFactory(controllers));
+  router.use("/api", apiRouterFactory(controllers, config));
 
-  router.get("*", controllers.ui.serveSite);
+  // router.get('*', controllers.ui.serveSite);
 
   // TODO: 404?
 

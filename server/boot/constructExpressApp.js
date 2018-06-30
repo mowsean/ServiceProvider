@@ -27,7 +27,7 @@ function constructExpressApp(ctx) {
   };
 
   const sessionConfig = {
-    secret: ctx.config.http.sessionSecret,
+    //    secret: ctx.config.http.sessionSecret,
     resave: true,
     rolling: true,
     saveUninitialized: false,
@@ -38,7 +38,11 @@ function constructExpressApp(ctx) {
 
   app.set("trust proxy", "loopback");
 
-  app.use(morgan("dev", { stream: loggerStreamWriter }));
+  app.use(
+    morgan("dev", {
+      stream: loggerStreamWriter
+    })
+  );
   app.use(bodyParser.json());
   app.use(
     bodyParser.urlencoded({
@@ -46,11 +50,11 @@ function constructExpressApp(ctx) {
     })
   );
   app.use(compression());
-  app.use(expressSession(sessionConfig));
-  app.use(express.static(path.resolve("client/build")));
+  //    app.use(expressSession(sessionConfig));
+  app.use(express.static(path.resolve("client/dist")));
 
-  app.use(ctx.security.middleware.initialize);
-  app.use(ctx.security.middleware.session);
+  //  app.use(ctx.security.middleware.initialize);
+  //  app.use(ctx.security.middleware.session);0
   app.use((req, res, next) => {
     // Dependency injection for the request:
     req.models = ctx.models;
@@ -65,7 +69,7 @@ function constructExpressApp(ctx) {
     ctx.security.middleware.authenticate,
     ctx.security.middleware.authCallback
   );
-  const siteRouter = siteRouterFactory(controllers);
+  const siteRouter = siteRouterFactory(controllers, ctx.config);
 
   app.use("/", siteRouter);
 

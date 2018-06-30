@@ -13,7 +13,7 @@ function readyModels(ctx) {
   const loadModels = tuple => {
     ctx.logger.info(`Loading models for database [${tuple.key}].`);
 
-    const models = readyKeyedModels(tuple.key, tuple.instance);
+    const models = readyKeyedModels("ss", tuple.instance);
 
     ctx.logger.info(`Successfully loaded models for database [${tuple.key}].`);
 
@@ -21,7 +21,7 @@ function readyModels(ctx) {
   };
 
   const captureModels = tuple => {
-    ctx.setModels(tuple.key, tuple.models);
+    ctx.setModels("ss", tuple.models);
   };
 
   Object.keys(ctx.config.databases)

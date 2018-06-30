@@ -64,8 +64,8 @@ function securityControllerFactory(
   authCallbackMiddleware
 ) {
   return {
-    authenticate: authenticateMiddleware,
-    authCallback: authCallbackMiddleware,
+    //   authenticate: authenticateMiddleware,
+    //   authCallback: authCallbackMiddleware,
     logout,
     currentUser,
     ensureAuthenticated,

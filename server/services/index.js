@@ -1,4 +1,4 @@
 module.exports = {
   common: require("./common"),
-  ss: require("./smartSchedule")
+  ss: require("./ss")
 };

@@ -10,7 +10,7 @@ const factories = {
    * Creates a sequelize instance using configuration values specified.
    */
   "sequelize:mssql": dbConfig => {
-    const sqlOptions = {
+    const ssOptions = {
       host: dbConfig.host,
       dialect: "mssql",
       dialectOptions: {
@@ -20,14 +20,14 @@ const factories = {
 
     // Allow optional configuration of connection pooling.
     if (dbConfig.pool && typeof dbConfig.pool === "object") {
-      sqlOptions.pool = dbConfig.pool;
+      ssOptions.pool = dbConfig.pool;
     }
 
     const sequelize = new Sequelize(
       dbConfig.name,
       dbConfig.username,
       dbConfig.password,
-      sqlOptions
+      ssOptions
     );
 
     return sequelize;

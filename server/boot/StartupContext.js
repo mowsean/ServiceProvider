@@ -1,6 +1,4 @@
-//const Logger = require('atomos/index');
-
-//const Logger = require('@atomos/logging');
+const winston = require("winston");
 
 /**
  * A context object to be used during server boot.
@@ -68,17 +66,17 @@ function StartupContext() {
     return ctx;
   };
 
-  /**
-   * @function setSecurity
-   * @param {object} security - A security object.
-   * @returns {StartupContext} The context object.
-   * @description
-   * Captures the security object for the application.
-   */
-  ctx.setSecurity = security => {
-    ctx.security = security;
-    return ctx;
-  };
+  // /**
+  //  * @function setSecurity
+  //  * @param {object} security - A security object.
+  //  * @returns {StartupContext} The context object.
+  //  * @description
+  //  * Captures the security object for the application.
+  //  */
+  // ctx.setSecurity = security => {
+  //     ctx.security = security;
+  //     return ctx;
+  // };
 
   /**
    * @function setExpress
@@ -92,17 +90,35 @@ function StartupContext() {
     return ctx;
   };
 
-  //  /**
-  //   * @function readyLogging
-  //   * @returns {StartupContext} The context object.
-  //   * @description
-  //   * Prepares the `logger` property for logging throughout
-  //   * the application's life-cycle.
-  //   */
-  //  ctx.readyLogging = () => {
-  //      ctx.logger = new Logger(ctx.config.logLevel);
-  //      return ctx;
-  //  };
+  /**
+   * @function readyLogging
+   * @returns {StartupContext} The context object.
+   * @description
+   * Prepares the `logger` property for logging throughout
+   * the application's life-cycle.
+   */
+  ctx.readyLogging = () => {
+    ctx.logger = new winston.Logger({
+      level: ctx.config.logLevel,
+      transports: [
+        new winston.transports.Console({
+          timestamp: true,
+          prettyPrint: true
+        }),
+        new winston.transports.File({
+          name: "error-file",
+          filename: "error.log",
+          level: "error"
+        }),
+        new winston.transports.File({
+          name: "combined-file",
+          filename: "combined.log"
+        })
+      ]
+    });
+
+    return ctx;
+  };
 
   /**
    * @function logStarting
@@ -111,8 +127,7 @@ function StartupContext() {
    * Logs that the application is starting.
    */
   ctx.logStarting = () => {
-    ctx.logger.info(`Starting SelectCARE ${ctx.config.version} server.`);
-    ctx.logger.start("server-startup");
+    ctx.logger.info(`Starting Schedule Smart ${ctx.config.version} server.`);
     return ctx;
   };
 
@@ -123,8 +138,7 @@ function StartupContext() {
    * Logs that the application startup is complete.
    */
   ctx.logStarted = () => {
-    ctx.logger.end("server-startup");
-    ctx.logger.info(`SelectCARE ${ctx.config.version} server started.`, {
+    ctx.logger.info(`Schedule Smart ${ctx.config.version} server started.`, {
       logging: ctx.config.logLevel,
       port: ctx.config.http.port
     });
@@ -140,10 +154,9 @@ function StartupContext() {
    */
   ctx.logStartError = error => {
     if (ctx.logger) {
-      ctx.logger.end("server-startup");
       ctx.logger.error(error);
       ctx.logger.error(
-        `Failed to start SelectCARE ${ctx.config.version} server.`
+        `Failed to start Schedule Smart ${ctx.config.version} server.`
       );
     } else {
       // Last resort.

@@ -2,19 +2,19 @@ version: !package version
 logLevel: debug
 http:
   port: 3000
-  sessionSecret: super-secret-key
+# sessionSecret: super-secret-key
   sessionTimeout: 900000
-# googleOAuth:
-#   clientID: 76210810824-r21cnb1h9akehq7rdkpe3k1hnlvmu93d.apps.googleusercontent.com
-#   clientSecret: LzyAPYhZh88jOaJc18ONBb3s
-#   callbackUrl: /api/login/return
+#  googleOAuth:
+#    clientID: 76210810824-r21cnb1h9akehq7rdkpe3k1hnlvmu93d.apps.googleusercontent.com
+#    clientSecret: LzyAPYhZh88jOaJc18ONBb3s
+#    callbackUrl: /api/login/return
 databases:
   sql: !database
     type: sequelize:mssql
-    host: DESKTOP-7LKJK96\SQLEXPRESS
-    name: SelectCARE_SQL
-    username: admin
-    password: 'admin'
+    host: DESKTOP-7LKJK96\MOHSIN
+    name: scheduleSmart
+    username: sa
+    password: '123'
     pool:
       max: 10
       min: 0
