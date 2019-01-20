@@ -1,0 +1,20 @@
+.app {
+  margin: 0 auto;
+  height: inherit;
+}
+
+.app > div {
+  height: inherit;
+}
+
+.mainContainer {
+  height: calc(100% - var(--nav-height));
+  margin: 0 1.5rem;
+  padding: var(--nav-margin-bottom) 0 0;
+  transform: translateY(var(--nav-height));
+}
+
+/*Set all inputs to have the same placeholder color*/
+::placeholder {
+  color: var(--color-slate);
+}

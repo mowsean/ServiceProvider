@@ -1,0 +1,4 @@
+.searchInput .actionButtonGroup > .actionButton svg {
+  fill: white !important;
+  transform: scale(1.2) translateY(0.05rem);
+}

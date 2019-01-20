@@ -1,0 +1,10 @@
+.tooltip {
+}
+
+.tooltip__title {
+  font-size: 1.2rem;
+}
+
+.tooltip__description {
+  margin-top: 0.4rem;
+}

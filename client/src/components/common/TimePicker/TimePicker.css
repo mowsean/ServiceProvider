@@ -1,0 +1,53 @@
+.timePicker {
+  color: var(--color-jetBlack);
+  display: flex;
+  max-width: 100%;
+}
+
+.timePicker__field {
+  margin: 0 1vw;
+  max-width: 8.75em;
+  position: relative;
+}
+
+.timePicker__field:first-of-type {
+  margin-left: 0;
+}
+
+.timePicker__field:last-of-type {
+  margin-right: 0;
+}
+
+.timePicker__fieldMeridiem {
+  font-size: 1vw;
+  pointer-events: none;
+  position: absolute;
+  right: 1em;
+  top: calc(100% - 2em);
+}
+
+@media (min-width: 1200px) {
+  .timePicker__fieldMeridiem {
+    font-size: 1.5em;
+    top: calc(50% + 1px);
+  }
+}
+
+.timePicker__fieldSelect * {
+  opacity: 0;
+}
+
+.timePicker__fieldSelect::before {
+  border: var(--color-cerulean) solid;
+  border-width: 0.15em 0.15em 0 0;
+  content: "";
+  display: inline-block;
+  height: 0.35em;
+  position: absolute;
+  pointer-events: none;
+  right: 0;
+  bottom: 1.5em;
+  transform: translateY(100%) rotate(135deg);
+  vertical-align: top;
+  width: 0.35em;
+}

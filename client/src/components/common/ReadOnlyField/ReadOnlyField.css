@@ -1,0 +1,9 @@
+.readOnlyField__label {
+  color: var(--color-label);
+  font-size: 12px;
+}
+
+.readOnlyField__value {
+  font-size: 16px;
+  margin-top: 3px;
+}
