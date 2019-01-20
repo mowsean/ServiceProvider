@@ -65,10 +65,9 @@ function constructExpressApp(ctx) {
     next();
   });
 
-  const controllers = controllersFactory(
-    ctx.security.middleware.authenticate,
-    ctx.security.middleware.authCallback
-  );
+  const controllers = controllersFactory();
+  // ctx.security.middleware.authenticate,
+  //ctx.security.middleware.authCallback
   const siteRouter = siteRouterFactory(controllers, ctx.config);
 
   app.use("/", siteRouter);

@@ -8,6 +8,14 @@ function relationships(models) {
   //     targetKey: 'agent_group_id',
   // });
 
+  // models.company.belongsTo(models.companyType, {
+  //   foreignKey: 'company_type_id',
+  // });
+
+  // models.accounts.hasMany(models.individuals, {
+  //   foreignKey: 'indv_account_id',
+  // });
+
   return models;
 }
 

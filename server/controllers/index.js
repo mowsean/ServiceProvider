@@ -1,8 +1,16 @@
 function controllersFactory(authenticateMiddleware, authCallbackMiddleware) {
   const companyType = require("./companyType");
+  const company = require("./company");
+  const companyServices = require("./companyServices");
+  const companyServiceProvider = require("./companyServiceProvider");
+  const category = require("./category");
 
   return {
-    companyType
+    company,
+    companyType,
+    companyServices,
+    companyServiceProvider,
+    category
   };
 }
 

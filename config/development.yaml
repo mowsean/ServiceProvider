@@ -11,7 +11,7 @@ http:
 databases:
   sql: !database
     type: sequelize:mssql
-    host: DESKTOP-7LKJK96\MOHSIN
+    host: '127.0.0.1'
     name: scheduleSmart
     username: sa
     password: '123'

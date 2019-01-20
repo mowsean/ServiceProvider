@@ -11,9 +11,15 @@ function constructServices(ctx) {
   ctx.logger.info("Starting services initialization.");
 
   const ss = {
-    companyType: new services.ss.CompanyTypeService(ctx.models.get("ss"))
-    //  companyStaff: new services.ss.CompanyStaff(ctx.models.get('ss')),
-    //   companyType: new services.ss.CompanyType(ctx.models.get('ss')),
+    companyType: new services.ss.CompanyTypeService(ctx.models.get("ss")),
+    company: new services.ss.CompanyService(ctx.models.get("ss")),
+    companyserviceprovider: new services.ss.CompanyServiceProviderService(
+      ctx.models.get("ss")
+    ),
+    companyservices: new services.ss.CompanyServicesService(
+      ctx.models.get("ss")
+    ),
+    category: new services.ss.CategoryService(ctx.models.get("ss"))
   };
 
   //const sqs = {};

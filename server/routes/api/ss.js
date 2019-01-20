@@ -10,7 +10,17 @@ const { Router } = require("express");
 function ssRouterFactory(controllers) {
   const ssRouter = new Router();
 
-  ssRouter.get("/companyTypes", controllers.companyType.getAllCompanyType);
+  ssRouter.get("/companytypes", controllers.companyType.getAllCompanyType);
+  ssRouter.get("/company", controllers.company.getAllCompanies);
+  ssRouter.get(
+    "/companyservices",
+    controllers.companyServices.getAllCompanyServices
+  );
+  ssRouter.get(
+    "/companyserviceprovider",
+    controllers.companyServiceProvider.getAllServiceProvider
+  );
+  ssRouter.get("/category", controllers.category.getAllCategory);
 
   return ssRouter;
 }
