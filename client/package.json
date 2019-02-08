@@ -14,7 +14,8 @@
   "devDependencies": {
     "prop-types": "^15.6.0",
     "react-scripts": "1.0.7",
-    "redux-immutable-state-invariant": "^1.2.4"
+    "redux-immutable-state-invariant": "^1.2.4",
+    "webpack": "^4.29.3"
   },
   "dependencies": {
     "@sentry/browser": "~4.0.6",
@@ -47,7 +48,8 @@
     "text-mask-addons": "^3.6.0",
     "toastr": "^2.1.4",
     "uuid": "^3.1.0",
-    "vanilla-masker": "^1.2.0"
+    "vanilla-masker": "^1.2.0",
+    "webpack-cli": "^3.2.3"
   },
   "proxy": {
     "/api": {

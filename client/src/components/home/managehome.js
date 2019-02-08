@@ -14,24 +14,19 @@ import {
   getCategoryIsFetching
 } from "../../reducers/rootReducer";
 
-//import { fetchCategories } from '../../actions/category';
-
 class ManageHome extends Component {
   componentDidMount() {
-    debugger;
     this.props.fetchCategories();
   }
 
   render() {
     debugger;
-    const { categories } = this.props;
+    const { categories, isFetching } = this.props;
 
     return (
       <div>
-        <Jumbotron title="Welcome" subtitle="This is sub title" />
-        <ServiceThumbs categories={categories} />
-        {/* <ServiceResult reusable={true} />
-                </ServiceThumbs> */}
+        <Jumbotron />
+        <ServiceThumbs categories={categories} isLoading={isFetching} />
       </div>
     );
   }

@@ -29,7 +29,6 @@ import {
   getCategoryIsFetching,
   getCategories
 } from "../../reducers/rootReducer";
-import { fetchCategories } from "../../actions/category";
 
 /**
  * @Class App
@@ -44,7 +43,6 @@ import { fetchCategories } from "../../actions/category";
 class App extends Component {
   constructor(props) {
     super(props);
-    debugger;
     this.state = {
       isInitializing: true
     };
@@ -52,14 +50,7 @@ class App extends Component {
 
   componentDidMount() {
     // set initial window resized event (for components that need window size)
-    // this.props.windowResized(window.innerWidth);
     this.initialize();
-    // set resize event listener (for components that need window size)
-    //  window.addEventListener(
-    //      'resize',
-    //      debounce(() => this.props.windowResized(window.innerWidth), 500),
-    //      false
-    //  );
   }
 
   initialize() {
@@ -72,11 +63,7 @@ class App extends Component {
         <div>
           <Navbar />
           <Route key="home" exact path="/" component={ManageHome} />
-          <Route
-            key="/smartservices"
-            path="/smartservices"
-            component={ServiceResult}
-          />
+          <Route key="/results" path="/results" component={ServiceResult} />
           <Route key="login" path="/login" component={Login} />
           <Route key="signup" path="/signup" component={Signup} />
           <Route

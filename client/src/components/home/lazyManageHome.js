@@ -8,7 +8,6 @@ import { ManageHome } from "./manageHome";
 class LazyManageHome extends React.Component {
   constructor(props) {
     super(props);
-    debugger;
     //  injectAsyncReducer(this.props.store, 'manageHome', manageCategoryReducer)
   }
 
@@ -17,7 +16,6 @@ class LazyManageHome extends React.Component {
   }
 
   render() {
-    debugger;
     return <ManageHome {...this.props} />;
   }
 }

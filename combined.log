@@ -2066,3 +2066,148 @@
 {"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m6.105 ms - -\u001b[0m\n","timestamp":"2019-01-20T20:54:52.101Z"}
 {"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m16.972 ms - -\u001b[0m\n","timestamp":"2019-01-20T20:55:52.065Z"}
 {"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m18.356 ms - -\u001b[0m\n","timestamp":"2019-01-20T20:58:07.512Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m95.504 ms - -\u001b[0m\n","timestamp":"2019-01-21T08:56:20.060Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m51.476 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:00:21.053Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m18.566 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:01:22.753Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m34.100 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:01:44.557Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m5.010 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:01:51.676Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m16.257 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:02:10.956Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m10.305 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:02:19.337Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m5.494 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:02:22.951Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m9.147 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:02:26.371Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m13.370 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:02:32.908Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m371.789 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:12:48.752Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m15.931 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:13:05.284Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m7.666 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:13:14.204Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m32.187 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:13:59.984Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m5.737 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:14:05.104Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m35.096 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:14:40.528Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m19.941 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:15:27.576Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m4.649 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:15:32.149Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m18.337 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:18:18.931Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m15.335 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:22:06.821Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m7.582 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:22:12.347Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m19.952 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:23:42.099Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m16.320 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:24:16.623Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m8.461 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:24:19.170Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m36.872 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:26:51.823Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m5.173 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:26:55.556Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m8.746 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:27:00.730Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m16.205 ms - -\u001b[0m\n","timestamp":"2019-01-21T09:35:30.689Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m127.719 ms - -\u001b[0m\n","timestamp":"2019-01-21T10:40:12.429Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m86.950 ms - -\u001b[0m\n","timestamp":"2019-01-23T09:23:04.204Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m52.169 ms - -\u001b[0m\n","timestamp":"2019-01-23T10:06:19.468Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m81.152 ms - -\u001b[0m\n","timestamp":"2019-01-24T07:34:04.973Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m34.895 ms - -\u001b[0m\n","timestamp":"2019-01-24T07:34:15.995Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m23.078 ms - -\u001b[0m\n","timestamp":"2019-01-24T07:34:34.547Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m9.988 ms - -\u001b[0m\n","timestamp":"2019-01-24T07:34:38.110Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m26.798 ms - -\u001b[0m\n","timestamp":"2019-01-24T07:53:10.395Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m23.006 ms - -\u001b[0m\n","timestamp":"2019-01-24T07:55:30.955Z"}
+{"level":"info","message":"Starting Schedule Smart 1.0.0 server.","timestamp":"2019-01-24T08:22:26.390Z"}
+{"level":"info","message":"Starting custom Sequelize data type injection.","timestamp":"2019-01-24T08:22:26.393Z"}
+{"level":"info","message":"Injecting custom Sequelize type [SMALLDATETIME].","timestamp":"2019-01-24T08:22:26.394Z"}
+{"level":"info","message":"Custom Sequelize data type injection complete.","timestamp":"2019-01-24T08:22:26.395Z"}
+{"level":"info","message":"Initializing models.","timestamp":"2019-01-24T08:22:26.396Z"}
+{"level":"info","message":"Loading models for database [sql].","timestamp":"2019-01-24T08:22:26.397Z"}
+{"level":"info","message":"Successfully loaded models for database [sql].","timestamp":"2019-01-24T08:22:26.683Z"}
+{"level":"info","message":"Model initialization complete.","timestamp":"2019-01-24T08:22:26.683Z"}
+{"level":"info","message":"Starting services initialization.","timestamp":"2019-01-24T08:22:26.684Z"}
+{"level":"info","message":"Service initialization complete.","timestamp":"2019-01-24T08:22:26.685Z"}
+{"level":"info","message":"Initializing express web server.","timestamp":"2019-01-24T08:22:26.686Z"}
+{"level":"info","message":"Express web server initialized.","timestamp":"2019-01-24T08:22:26.891Z"}
+{"level":"info","message":"Starting express web server.","timestamp":"2019-01-24T08:22:26.892Z"}
+{"level":"info","message":"Express web server started.","timestamp":"2019-01-24T08:22:26.914Z"}
+{"logging":"debug","port":3000,"level":"info","message":"Schedule Smart 1.0.0 server started.","timestamp":"2019-01-24T08:22:26.924Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[32m200 \u001b[0m443.870 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:22:27.494Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m185.137 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:23:26.365Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m12.232 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:23:35.334Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m49.058 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:23:40.601Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m7.568 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:23:43.654Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m10.212 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:23:44.796Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m10.943 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:23:45.894Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m27.834 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:29:26.917Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m22.239 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:30:19.950Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m15.890 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:30:22.584Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m39.829 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:57:36.171Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m120.946 ms - -\u001b[0m\n","timestamp":"2019-01-24T08:58:58.389Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m82.863 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:00:43.399Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m40.377 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:03:00.698Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m16.478 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:03:24.873Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m8.201 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:03:28.147Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m57.714 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:04:10.100Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m35.512 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:11:40.615Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m20.223 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:12:10.849Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m12.634 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:12:19.218Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m17.107 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:12:31.356Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m48.460 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:13:07.985Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m7.730 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:13:20.658Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m17.356 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:13:47.943Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m9.342 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:13:52.389Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m8.887 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:13:54.896Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m15.970 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:15:12.429Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m57.547 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:16:01.669Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m8.720 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:16:08.936Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m8.957 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:16:13.871Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m43.984 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:16:19.572Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m20.879 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:28:21.671Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m9.734 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:28:29.806Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m36.647 ms - -\u001b[0m\n","timestamp":"2019-01-24T09:28:42.335Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m209.652 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:27:37.095Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m37.833 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:28:08.616Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m23.696 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:31:29.271Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m18.502 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:31:53.399Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m16.810 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:35:16.805Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m16.466 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:35:24.858Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m23.643 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:37:06.129Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m21.992 ms - -\u001b[0m\n","timestamp":"2019-01-24T10:38:44.083Z"}
+{"level":"info","message":"Starting Schedule Smart 1.0.0 server.","timestamp":"2019-02-04T09:04:13.752Z"}
+{"level":"info","message":"Starting custom Sequelize data type injection.","timestamp":"2019-02-04T09:04:13.756Z"}
+{"level":"info","message":"Injecting custom Sequelize type [SMALLDATETIME].","timestamp":"2019-02-04T09:04:13.756Z"}
+{"level":"info","message":"Custom Sequelize data type injection complete.","timestamp":"2019-02-04T09:04:13.756Z"}
+{"level":"info","message":"Initializing models.","timestamp":"2019-02-04T09:04:13.756Z"}
+{"level":"info","message":"Loading models for database [sql].","timestamp":"2019-02-04T09:04:13.760Z"}
+{"level":"info","message":"Successfully loaded models for database [sql].","timestamp":"2019-02-04T09:04:13.947Z"}
+{"level":"info","message":"Model initialization complete.","timestamp":"2019-02-04T09:04:13.947Z"}
+{"level":"info","message":"Starting services initialization.","timestamp":"2019-02-04T09:04:13.951Z"}
+{"level":"info","message":"Service initialization complete.","timestamp":"2019-02-04T09:04:13.951Z"}
+{"level":"info","message":"Initializing express web server.","timestamp":"2019-02-04T09:04:13.951Z"}
+{"level":"info","message":"Express web server initialized.","timestamp":"2019-02-04T09:04:14.165Z"}
+{"level":"info","message":"Starting express web server.","timestamp":"2019-02-04T09:04:14.165Z"}
+{"level":"info","message":"Express web server started.","timestamp":"2019-02-04T09:04:14.185Z"}
+{"logging":"debug","port":3000,"level":"info","message":"Schedule Smart 1.0.0 server started.","timestamp":"2019-02-04T09:04:14.193Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m1329.373 ms - -\u001b[0m\n","timestamp":"2019-02-04T09:04:31.810Z"}
+{"level":"info","message":"\u001b[0mGET /favicon.ico \u001b[33m404 \u001b[0m7.268 ms - 150\u001b[0m\n","timestamp":"2019-02-04T09:04:31.971Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m423.033 ms - -\u001b[0m\n","timestamp":"2019-02-04T09:06:03.139Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m12.816 ms - -\u001b[0m\n","timestamp":"2019-02-04T09:06:18.253Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m267.238 ms - -\u001b[0m\n","timestamp":"2019-02-04T09:23:59.577Z"}
+{"level":"info","message":"Starting Schedule Smart 1.0.0 server.","timestamp":"2019-02-07T10:28:59.990Z"}
+{"level":"info","message":"Starting custom Sequelize data type injection.","timestamp":"2019-02-07T10:28:59.990Z"}
+{"level":"info","message":"Injecting custom Sequelize type [SMALLDATETIME].","timestamp":"2019-02-07T10:28:59.990Z"}
+{"level":"info","message":"Custom Sequelize data type injection complete.","timestamp":"2019-02-07T10:28:59.994Z"}
+{"level":"info","message":"Initializing models.","timestamp":"2019-02-07T10:28:59.994Z"}
+{"level":"info","message":"Loading models for database [sql].","timestamp":"2019-02-07T10:28:59.994Z"}
+{"level":"info","message":"Successfully loaded models for database [sql].","timestamp":"2019-02-07T10:29:00.291Z"}
+{"level":"info","message":"Model initialization complete.","timestamp":"2019-02-07T10:29:00.291Z"}
+{"level":"info","message":"Starting services initialization.","timestamp":"2019-02-07T10:29:00.291Z"}
+{"level":"info","message":"Service initialization complete.","timestamp":"2019-02-07T10:29:00.291Z"}
+{"level":"info","message":"Initializing express web server.","timestamp":"2019-02-07T10:29:00.291Z"}
+{"level":"info","message":"Express web server initialized.","timestamp":"2019-02-07T10:29:00.544Z"}
+{"level":"info","message":"Starting express web server.","timestamp":"2019-02-07T10:29:00.544Z"}
+{"level":"info","message":"Express web server started.","timestamp":"2019-02-07T10:29:00.562Z"}
+{"logging":"debug","port":3000,"level":"info","message":"Schedule Smart 1.0.0 server started.","timestamp":"2019-02-07T10:29:00.566Z"}
+{"level":"info","message":"Starting Schedule Smart 1.0.0 server.","timestamp":"2019-02-08T10:01:53.907Z"}
+{"level":"info","message":"Starting custom Sequelize data type injection.","timestamp":"2019-02-08T10:01:53.911Z"}
+{"level":"info","message":"Injecting custom Sequelize type [SMALLDATETIME].","timestamp":"2019-02-08T10:01:53.911Z"}
+{"level":"info","message":"Custom Sequelize data type injection complete.","timestamp":"2019-02-08T10:01:53.912Z"}
+{"level":"info","message":"Initializing models.","timestamp":"2019-02-08T10:01:53.912Z"}
+{"level":"info","message":"Loading models for database [sql].","timestamp":"2019-02-08T10:01:53.913Z"}
+{"level":"info","message":"Successfully loaded models for database [sql].","timestamp":"2019-02-08T10:01:54.024Z"}
+{"level":"info","message":"Model initialization complete.","timestamp":"2019-02-08T10:01:54.025Z"}
+{"level":"info","message":"Starting services initialization.","timestamp":"2019-02-08T10:01:54.025Z"}
+{"level":"info","message":"Service initialization complete.","timestamp":"2019-02-08T10:01:54.026Z"}
+{"level":"info","message":"Initializing express web server.","timestamp":"2019-02-08T10:01:54.027Z"}
+{"level":"info","message":"Express web server initialized.","timestamp":"2019-02-08T10:01:54.095Z"}
+{"level":"info","message":"Starting express web server.","timestamp":"2019-02-08T10:01:54.096Z"}
+{"level":"info","message":"Express web server started.","timestamp":"2019-02-08T10:01:54.114Z"}
+{"logging":"debug","port":3000,"level":"info","message":"Schedule Smart 1.0.0 server started.","timestamp":"2019-02-08T10:01:54.118Z"}
+{"level":"info","message":"\u001b[0mGET /api/ss/category \u001b[36m304 \u001b[0m2545.040 ms - -\u001b[0m\n","timestamp":"2019-02-08T10:02:10.831Z"}

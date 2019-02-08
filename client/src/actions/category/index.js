@@ -3,13 +3,11 @@ import * as categoryService from "../../services/category";
 import { errorActionHandler } from "../errorActionHandler";
 
 export const fetchCategories = () => dispatch => {
-  debugger;
   dispatch({ type: categoryActionTypes.CATEGORIES.FETCH_REQUEST });
 
   categoryService
     .fetchCategories()
     .then(categories => {
-      debugger;
       dispatch({
         type: categoryActionTypes.CATEGORIES.FETCH_SUCCESS,
         categories
