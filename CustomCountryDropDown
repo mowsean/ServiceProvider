@@ -1,0 +1,74 @@
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { getCountries, getCountryCallingCode } from 'react-phone-number-input/input'
+import CountryFlag from 'react-country-flag';
+import PropTypes from 'prop-types'
+import en from 'react-phone-number-input/locale/en'
+
+const CustomCountryDropDown = ({ selectedCountry, isCountryOpen, setIsCountryOpen, onChange }) => {
+
+  const dropdownRef = useRef(null);
+  useEffect(() => {
+    if (isCountryOpen && dropdownRef.current) {
+      // Move cursor to the selected item when the dropdown is open
+      const selectedElement = dropdownRef.current.querySelector('.selected');
+      if (selectedElement) {
+        selectedElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }
+  }, [isCountryOpen]);
+
+  const getCountryFlag = (code) => {
+    return (<CountryFlag
+      countryCode={code}
+      svg
+      styleprops={{ width: '100px', height: '70px' }}
+    />)
+  }
+
+  return (
+    <>
+      <div className="relative inline-block text-left">
+        <button
+          onClick={() => setIsCountryOpen(!isCountryOpen)}
+          type="button"
+          className="flex-1 block w-full min-w-0 rounded sm:text-sm border-gray-300 inline-flex justify-center w-46 px-4 py-2 text-sm font-medium text-gray-700 "
+        >
+          {getCountryFlag(selectedCountry)}
+          <svg
+            className="-mr-1 ml-2 h-5 w-5"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fillRule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 011.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+      {isCountryOpen && (
+        <div className='flex absolute mb-72' ref={dropdownRef}>
+          <ul className="absolute1 z-10 h-48 w-80 origin-top-right overflow-auto  scroll-smooth bg-white border border-gray-300 shadow-lg" >
+            {getCountries().map((country) => (
+              <li key={country} country={country} className={`block px-4 py-2 text-sm text-gray-700 hover:bg-blue-500 hover:text-white cursor-pointer ${country == selectedCountry ? 'bg-blue-500 text-white selected' : ''}`} onClick={onChange}>
+                {getCountryFlag(country)} {en[country]} +{getCountryCallingCode(country)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </>
+  );
+
+};
+
+CustomCountryDropDown.propTypes = {
+  selectedCountry: PropTypes.string,
+  isCountryOpen: PropTypes.bool,
+  setIsCountryOpen: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired,
+}
+
+export default CustomCountryDropDown;
